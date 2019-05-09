@@ -10,14 +10,12 @@
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissivariable "sap_hana_deployment_bucket" {
-   description = "SAP hana deployment bucket"
- }
-ons and
+ * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+# Changed from SCR
 
-variable "sap_primary_instance" {
+ariable "sap_primary_instance" {
   description = "Compute Engine instance name"
 }
 
