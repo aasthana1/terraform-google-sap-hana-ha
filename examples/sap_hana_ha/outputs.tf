@@ -19,7 +19,12 @@ output "sap_hana_sid" {
   value       = "${var.sap_hana_sid}"
 }
 
-output "instance_name" {
-  description = "Name of instance"
-  value = "${var.instance_name}"
+output "sap_primary_instance_name" {
+  description = "Name of sap primary instance"
+  value       = "${var.sap_primary_instance}"
+}
+
+output "sap_secondary_instance_name" {
+  description = "Name of sap secondary instance"
+  value       = "${var.sap_secondary_instance}"
 }

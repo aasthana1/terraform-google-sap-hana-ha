@@ -30,7 +30,7 @@ module "gcp_sap_hana_ha" {
   linux_image_project        = "${var.linux_image_project}"
   instance_type              = "${var.instance_type}"
   network_tags               = "${var.network_tags}"
-  project                    = "${var.project}"
+  project_id                 = "${var.project_id}"
   region                     = "${var.region}"
   service_account            = "${var.service_account}"
   boot_disk_size             = "${var.boot_disk_size}"

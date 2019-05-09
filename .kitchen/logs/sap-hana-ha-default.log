@@ -1,0 +1,25 @@
+I, [2019-05-09T04:56:20.541984 #420]  INFO -- sap-hana-ha-default: -----> Creating <sap-hana-ha-default>...
+W, [2019-05-09T04:56:20.542271 #420]  WARN -- sap-hana-ha-default: Running command `terraform init -input=false -lock=true -lock-timeout=0s  -upgrade -force-copy -backend=true  -get=true -get-plugins=true  -verify-plugins=true` in directory /cft/workdir/test/fixtures/sap_hana_ha
+I, [2019-05-09T04:56:20.560938 #420]  INFO -- sap-hana-ha-default: [0m[1mUpgrading modules...[0m
+I, [2019-05-09T04:56:20.562388 #420]  INFO -- sap-hana-ha-default: - module.example
+I, [2019-05-09T04:56:20.562461 #420]  INFO -- sap-hana-ha-default:   Updating source "../../../examples/sap_hana_ha"
+I, [2019-05-09T04:56:20.563517 #420]  INFO -- sap-hana-ha-default: - module.example.gcp_sap_hana_ha
+I, [2019-05-09T04:56:20.563597 #420]  INFO -- sap-hana-ha-default:   Updating source "../../modules/sap_hana_ha"
+I, [2019-05-09T04:56:20.573177 #420]  INFO -- sap-hana-ha-default: 
+I, [2019-05-09T04:56:20.573303 #420]  INFO -- sap-hana-ha-default: [0m[1mInitializing provider plugins...[0m
+I, [2019-05-09T04:56:20.573438 #420]  INFO -- sap-hana-ha-default: - Checking for available provider plugins on https://releases.hashicorp.com...
+I, [2019-05-09T04:56:20.868982 #420]  INFO -- sap-hana-ha-default: - Downloading plugin for provider "google" (1.18.0)...
+I, [2019-05-09T04:56:21.846397 #420]  INFO -- sap-hana-ha-default: 
+I, [2019-05-09T04:56:21.846448 #420]  INFO -- sap-hana-ha-default: [0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+W, [2019-05-09T04:56:21.857915 #420]  WARN -- sap-hana-ha-default: Running command `terraform workspace select kitchen-terraform-sap-hana-ha-default` in directory /cft/workdir/test/fixtures/sap_hana_ha
+I, [2019-05-09T04:56:21.883573 #420]  INFO -- sap-hana-ha-default: [31m
+I, [2019-05-09T04:56:21.883783 #420]  INFO -- sap-hana-ha-default: Workspace "kitchen-terraform-sap-hana-ha-default" doesn't exist.
+I, [2019-05-09T04:56:21.883830 #420]  INFO -- sap-hana-ha-default: 
+I, [2019-05-09T04:56:21.883869 #420]  INFO -- sap-hana-ha-default: You can create this workspace with the "new" subcommand.[0m[0m
+W, [2019-05-09T04:56:21.896365 #420]  WARN -- sap-hana-ha-default: Running command `terraform workspace new kitchen-terraform-sap-hana-ha-default` in directory /cft/workdir/test/fixtures/sap_hana_ha
+I, [2019-05-09T04:56:21.919406 #420]  INFO -- sap-hana-ha-default: [0m[32m[1mCreated and switched to workspace "kitchen-terraform-sap-hana-ha-default"![0m[32m
+I, [2019-05-09T04:56:21.919512 #420]  INFO -- sap-hana-ha-default: 
+I, [2019-05-09T04:56:21.919609 #420]  INFO -- sap-hana-ha-default: You're now on a new, empty workspace. Workspaces isolate their state,
+I, [2019-05-09T04:56:21.919634 #420]  INFO -- sap-hana-ha-default: so if you run "terraform plan" Terraform will not see any existing state
+I, [2019-05-09T04:56:21.919654 #420]  INFO -- sap-hana-ha-default: for this configuration.[0m
+I, [2019-05-09T04:56:21.932895 #420]  INFO -- sap-hana-ha-default: Finished creating <sap-hana-ha-default> (0m1.39s).

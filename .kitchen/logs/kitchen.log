@@ -1,0 +1,7 @@
+I, [2019-05-09T04:56:19.069337 #420]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.5)
+W, [2019-05-09T04:56:19.252225 #420]  WARN -- Kitchen: Running command `terraform version` in directory /cft/workdir
+I, [2019-05-09T04:56:19.266897 #420]  INFO -- Kitchen: Terraform v0.11.13
+I, [2019-05-09T04:56:19.267128 #420]  INFO -- Kitchen: 
+W, [2019-05-09T04:56:19.279212 #420]  WARN -- Kitchen: Terraform v0.11.13 is supported
+I, [2019-05-09T04:56:20.541928 #420]  INFO -- Kitchen: -----> Creating <sap-hana-ha-default>...
+I, [2019-05-09T04:56:21.933156 #420]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.86s)

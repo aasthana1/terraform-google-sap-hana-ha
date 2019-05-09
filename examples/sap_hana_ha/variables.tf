@@ -15,7 +15,7 @@
  */
 # Changed from SCR
 
-ariable "sap_primary_instance" {
+variable "sap_primary_instance" {
   description = "Compute Engine instance name"
 }
 
